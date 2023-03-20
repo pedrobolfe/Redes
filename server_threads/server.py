@@ -19,18 +19,18 @@ def handle_http_response():
     Server: Redes/1.0
     Content-Type: text/HTML
 
-<html>
-    <head>
-        <title>
-            Aula
-        </title>
-    </head>
-    <body>
-        <h1>Aula de Redes de Computadores</h1>
-        <h2>IFPR Cascavel</h2>
-        Este servidor foi acessado {acessos} vezes.<br>
-    </body>
-</html>
+    <html>
+        <head>
+            <title>
+                Aula
+            </title>
+        </head>
+        <body>
+            <h1>Aula de Redes de Computadores</h1>
+            <h2>IFPR Cascavel</h2>
+            Este servidor foi acessado {acessos} vezes.<br>
+        </body>
+    </html>
     '''
     return response
 
