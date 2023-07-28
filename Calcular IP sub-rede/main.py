@@ -57,3 +57,9 @@ def hosts_addr(ip, mask):
         aux = '.'.join(list_end_bin) # separar o ip por '.' e junta tudo em uma string, ex: 192.255.255.254
 
         yield aux
+
+ip="192.168.10.10" # endereco de ip
+mascara = 18 # mascara de rede
+
+for ip in hosts_addr(ip, mascara):
+    print(ip)
